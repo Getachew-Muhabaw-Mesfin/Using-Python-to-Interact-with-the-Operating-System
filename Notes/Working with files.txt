@@ -20,3 +20,25 @@ D.The readline() method reads a single line from the current position, the read(
 
 Correct
 D.Right on! Both methods read from the current position. The readline() method reads one line, while read() reads until the end of the file.
+
+Notes:
+
+If you open a file for writing and the file already exists, 
+THE OLD CONTENT WILL BE DELETED AS SOON AS THE FILE IS OPEND!!!
+
+Question 2.
+What happens to the previous contents of a file when we open it using "w" ("write" mode)?
+
+
+A.The new contents get added after the old contents.
+
+
+B.A new file is created and the old contents are kept in a copy.
+
+
+C.The old contents get deleted as soon as we open the file.
+
+
+D.The old contents get deleted after we close the file.
+
+Correct Answer is C

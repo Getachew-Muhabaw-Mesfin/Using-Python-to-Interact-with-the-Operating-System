@@ -24,3 +24,9 @@ lines= file.readlines()
 file.close()
 lines.sort() ## Sort the file lines
 print(lines) # It has \n as the end of each line we can remove this by 
+
+## Writing files in python
+# BE Carfull : If you open a file for writing and the file already exists, 
+#THE OLD CONTENT WILL BE DELETED AS SOON AS THE FILE IS OPEND!!!
+with open('./Python-file/novel.txt','w') as file:
+    file.write("This is writing on files in python")
