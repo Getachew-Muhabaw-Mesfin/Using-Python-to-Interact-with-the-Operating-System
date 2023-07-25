@@ -1,0 +1,3 @@
+This is the file I am going to open and play around 
+python is the best programming language in the world
+Programmers need high degree of consistancy

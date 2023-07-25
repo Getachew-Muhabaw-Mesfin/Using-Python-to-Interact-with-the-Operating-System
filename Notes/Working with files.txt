@@ -1,0 +1,22 @@
+In python we can open read and more operation in the file
+
+We can use the with key workd and open the file as well as close the file by one command
+
+Question
+
+1.What is the difference between the readline() and read() methods?
+
+
+A.The readline() method starts from the current position, while the read() method reads the whole file.
+
+
+B.The read() method reads a single line, the readline() method reads the whole file.
+
+
+C.The readline() method reads the first line of the file, the read() method reads the whole file.
+
+
+D.The readline() method reads a single line from the current position, the read() method reads from the current position until the end of the file.
+
+Correct
+D.Right on! Both methods read from the current position. The readline() method reads one line, while read() reads until the end of the file.
