@@ -16,3 +16,11 @@ with open('./Python-file/test.txt') as file:
         # print(line.upper()) # it has with spaces acros the each line
         # To remove read line character we can use this
         print(line.strip().upper())
+
+# Read each line of the file and make sorted
+
+file = open('./Python-file/test.txt')
+lines= file.readlines()
+file.close()
+lines.sort() ## Sort the file lines
+print(lines) # It has \n as the end of each line we can remove this by 
